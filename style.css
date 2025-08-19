@@ -1,0 +1,60 @@
+*{
+    margin:3%;
+    padding:0%;
+    box-sizing: border-box;
+    
+
+
+  font-family: "Mozilla Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.container{
+max-width: 85%;
+padding: 20px;
+margin:auto;
+font-size: 20px;
+}
+.container h2,p{
+    text-align: center;
+
+}
+input, textarea{
+    font-size: 15px;
+    display:inline-block;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 15px;
+    width: 80%;
+    margin: 11px;
+    padding: 7px;
+    background-color:rgb(245, 245, 222);
+    cursor:auto;
+}
+.btn{
+    background-color: rgb(244, 135, 135);
+    width: 15%;
+    margin: 13px;
+    padding: 7px;
+    display:inline-block;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+form {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
